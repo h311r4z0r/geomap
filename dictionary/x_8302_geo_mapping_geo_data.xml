@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Geo Data" max_length="40" name="x_8302_geo_mapping_geo_data" sizeclass="7322" type="collection">
+        <element label="city" max_length="255" name="city" type="string"/>
+        <element label="country" max_length="255" name="country" type="string"/>
+        <element label="iso2" max_length="2" name="iso2" type="string"/>
+        <element label="iso3" max_length="3" name="iso3" type="string"/>
+        <element label="lat" max_length="40" name="lat" type="float"/>
+        <element label="lng" max_length="40" name="lng" type="float"/>
+        <element label="pop" max_length="40" name="pop" type="integer"/>
+        <element label="province" max_length="255" name="province" type="string"/>
+    </element>
+</database>

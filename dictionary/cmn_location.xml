@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="all_tables.text_index_translations=true" label="Location" max_length="40" name="cmn_location" text_index="true" type="collection">
+        <element label="Country" max_length="32" name="x_8302_geo_mapping_country" reference="core_country" type="reference"/>
+        <index name="index">
+            <element name="x_8302_geo_mapping_country"/>
+        </index>
+    </element>
+</database>
